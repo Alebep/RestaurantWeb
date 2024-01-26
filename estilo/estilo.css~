@@ -1,0 +1,178 @@
+#body 
+{
+font-family:lucida grande, tahoma, verdana, arial, sans-serif;
+}
+body p{
+
+}
+#estrutura 
+{
+width:1024px;
+background-color:white;
+border:5px solid #dedede;
+margin:auto;
+
+}
+#cabecario 
+{
+height:90px;
+width:100%;
+background-color:blue;
+background-repeat:not-repeat;
+background-size:cover;
+}
+#navegacao
+{
+border:3px solid #e3e3e3;
+height:42px;
+background-image: url(index.jpeg);
+background:not-repeat;
+text-shadow:0.1em, 0.1em #333;
+padding: 2px 0;
+
+}
+#nav
+{
+ list-style:none;
+}
+
+#nav ul
+{
+ margin:0;
+width:auto;
+padding: 0;
+display: none;
+}
+#nav li
+{
+font-size:24px;
+float:left;
+position:relative;
+width:120px;
+height:40px;
+padding:auto;
+/*border-right: 1px solid #C4C769;*/
+}
+#nav a:link, nav a:active, nav a:visited
+{
+display:block;
+text-decoration: none;
+/*text-shadow:0.13em 0.1em #333;*/
+color: #fff;
+}
+#nav a:hover
+{
+text-decoration: none;color:black;
+}
+#principal
+{
+height:599px;
+width:100%;
+margin-bottom:auto;
+
+background-image:url(texture-gold-camel-beige-lion-hair.jpg);
+}
+#sidebar
+{
+float:left;
+width:999px;
+height:250px;
+background-color:white;
+margin:20px 10px;
+border:2px solid #E3E3E3;
+}
+
+#rodape
+{
+
+width:100%;
+height:40px;
+border:1px solid #E3E3E3;
+color:#fff;
+text-align:center;
+text-shadow:0.13em 0.1em #333;
+background-image: url(index.jpeg); 
+}
+
+#navegacao2
+{
+width:160px;
+height:220px;
+float:left;
+background-image: url(index.jpeg);
+color:white;
+}
+#nav2
+{list-style:none;}
+
+#nav2 ul
+{
+margin:0;
+width:auto;
+padding: 0;
+display: none;
+}
+
+#nav2 li
+{
+font-size:24px;
+float:left;
+position:relative;
+width:120px;
+height:40px;
+padding:auto;
+border-right: 1px solid #fff;
+}
+
+#nav2 a:link, nav2 a:active, nav2 a:visited
+{
+display:block;
+text-decoration: none;
+color: white;
+}
+
+nav2 a:hover
+{
+color:blue;
+}
+
+#navegacao3{
+width:160px;
+margin:0;
+padding:0;
+float:left;
+background-image: url(index.jpeg);
+}
+#navegacao3 li{
+list-style:none;
+/*background:#f1f1f1;*/
+width:160px;
+border-bottom: 1px solid 666;
+}
+#navegacao3 li a{
+display:block;
+padding:8px;
+border-left:4px solid #FFD700;
+text-decoration: none;
+box-shadow: 2px 2px 5px #ccc;
+color:white;
+}
+#navegacao3 a:hover{
+border-left: 4px solid #f8f8f8;
+box-shadow: 1px 1px 5px #ccc;
+color:black;
+background: #f8f8f8;
+}
+
+
+#inf_nav
+{
+width:860px;
+height:300px;
+float:right;
+margin:0;
+padding:0;
+margin-right:2px;
+overflow:auto;
+}
+.

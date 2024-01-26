@@ -1,0 +1,15 @@
+.gallery-control-operator:target~.control-button
+{
+color:#ccc;
+color:rgba(255,255,255,0.4);
+}
+.gallery-control-button:first-of-type, .item-2 .control-operator:nth-of-type(1):target~.control-button:nth-of-type
+{
+color:white;
+color:rgba(255,255,255,0.4);
+}
+.gallery
+{
+position:relative;
+color:rgba(255,255,255,0.4);
+}

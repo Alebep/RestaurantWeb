@@ -1,0 +1,15 @@
+update cliente set  Nome='ff', Sobrenome='sss', Telefone='333', Email='ddd' where id_cliente='1';
+
+
+update reserva set  N_pessoas='5' ,data='2012-01-12', hora='02:01:00', cliente='1',funcionario='2' where id_reserva='1';
+
+
+nsert into Funcionario(Nome,Sexo,Data_nascimento,Funcao,Telefone,Email,Morada,Sobrenome,Salario) values();
+insert into Funcionario(Nome,Sexo,Data_nascimento,Funcao,Telefone,Email,Morada,Sobrenome,Salario) values('aa','M','2012-01-12','1','66','aaa','aaaa','aaa','2222');
+
+<select size="1" name="D1">
+<option selected value="Selecione">Selecione!</option>
+<option value="2000">2000</option>
+<option value="2001">2001</option>
+</select>
+

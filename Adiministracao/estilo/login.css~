@@ -1,0 +1,80 @@
+*{
+margin:0;
+padding:0;
+outline:none;
+list-style:none;
+}
+body{
+font:300 16px Oswald;
+background-image: url(1459293_379697145510473_956323319_n.jpg);
+}
+#login{
+width:300px;
+margin:0 auto;
+position:relative;
+top:180px;
+border:1px solid #f1f1f1;
+padding:30px;
+}
+#login label{
+display:block;
+padding-top:5px;
+
+}
+.logo{
+width:180px;
+height:40px;
+margin:0 auto;
+padding:7px;
+}
+.acomodar{
+margin:0 auto;
+width:250px;
+}
+.txt{
+ border:none;
+ height:40px;
+ width:250px;
+ border:thin solid #f1f1f1;
+}
+.txt:focus{
+border:thin solid #EE9A00;
+box-shadow:0 2px 12px #EE9A00;
+-webkit-box-shadow:0 2px 12px #EE9A00;
+-moz-box-shadow:0 2px 12px #EE9A00;
+}
+.sb{
+display:block;
+border:none;
+width:250px;
+height:40px;
+margin-top:12px;
+cursor:pointer;
+font: 400 20px Oswald;
+color:#999;
+}
+.sb:hover{
+/*background-image: url(index.jpeg);*/
+background:#8B2323;
+color:#fff;
+}
+/* classe de herança*/
+.bradius
+{
+border-radius:6px;
+-webkit-border-radius:6px;
+-moz-border-radius:6px;
+}
+.fleft{
+float:left;
+}
+.fright
+{
+float:right;
+}
+/*Multiplos estilos*/
+.txt,txt:focus,.sb,sb:hover{
+transition:all 2s linear;
+-webkit-transition:all 2s linear;
+-moz-transition:all 2s linear;
+}
